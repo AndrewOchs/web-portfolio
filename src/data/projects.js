@@ -1,77 +1,74 @@
 export const projects = [
     {
       id: "1",
-      title: "E-Commerce Website",
-      description: "A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.",
-      longDescription: "This project was a comprehensive e-commerce solution built from the ground up. It features a modern, responsive design that works seamlessly across all devices, advanced product filtering and search capabilities, a robust shopping cart, and a secure checkout process.",
-      image: "/images/projects/ecommerce.jpg",
-      detailImage: "/images/projects/ecommerce-detail.jpg",
-      category: ["web", "frontend", "backend"],
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
+      title: "Tremont Borough Website",
+      description: "An informational website for Tremont Borough PA, enhancing accessibility to community resources.",
+      longDescription: "Designed and developed a comprehensive website for the Tremont, PA Borough to serve as an information hub for residents and visitors. The site provides easy access to community resources, meeting information, and borough updates.",
+      image: "images/projects/tremont_website_img.png", // Add placeholder image if needed
+      detailImage: "/images/projects/tremont_website_img.png", // Add placeholder image if needed
+      category: ["web", "frontend"],
+      technologies: ["HTML", "CSS", "JavaScript", "React"],
       featured: true,
-      client: "RetailCo",
-      date: "January 2023",
-      liveLink: "https://example.com",
-      codeLink: "https://github.com",
-      challenge: "The client needed a modern e-commerce platform that could handle a large inventory, provide excellent user experience, and integrate with their existing payment and inventory systems.",
-      solution: "I designed and built a custom e-commerce solution using the MERN stack. The website features a responsive design, efficient product filtering, user authentication, shopping cart functionality, and secure checkout through Stripe integration.",
+      client: "Tremont Borough",
+      date: "2024 - Present",
+      liveLink: "http://tremontborough.org/",
+      codeLink: "", // Add if you have the repo public
+      challenge: "The borough needed a modern, accessible online presence to better connect with residents and provide timely information about community resources and events.",
+      solution: "I developed a clean, user-friendly website that makes it easy for residents to find the information they need. The site focuses on accessibility and responsive design to ensure all residents can access it from any device.",
       features: [
         "Responsive design for all devices",
-        "Advanced product filtering and search",
-        "User account management",
-        "Shopping cart with local storage",
-        "Secure payment processing with Stripe",
-        "Admin dashboard for product management"
+        "Meeting documentation and announcements",
+        "Organization member information",
+        "Community resources directory",
+        "Regular content updates"
       ]
     },
     {
       id: "2",
-      title: "Portfolio Website",
-      description: "A clean, modern portfolio website showcasing creative work with smooth animations and responsive design.",
-      longDescription: "This portfolio website was designed to showcase creative work in a clean, modern, and engaging way. It features smooth animations, a responsive design that looks great on all devices, and a user-friendly navigation system.",
-      image: "/images/projects/portfolio.jpg",
-      detailImage: "/images/projects/portfolio-detail.jpg",
-      category: ["web", "frontend"],
-      technologies: ["React", "Framer Motion", "CSS"],
+      title: "Custom Command Line Interface",
+      description: "A Unix-like shell supporting pipes, redirection, and background processes implemented in C.",
+      longDescription: "Developed a custom command line interface as part of my coursework at Temple University. This Unix-like shell supports advanced features such as pipes, input/output redirection, and background process execution.",
+      image: "/images/projects/linux_concept_img.png", // Add placeholder image if needed
+      detailImage: "/images/projects/linux_concept_img.png", // Add placeholder image if needed
+      category: ["software", "system"],
+      technologies: ["C", "Linux"],
       featured: true,
-      client: "DesignStudio",
-      date: "March 2023",
-      liveLink: "https://example.com",
-      codeLink: "https://github.com",
-      challenge: "The design studio needed a portfolio website that would showcase their work in a visually appealing way while providing an excellent user experience across all devices.",
-      solution: "I created a modern portfolio website using React and Framer Motion for smooth animations. The website features a clean, minimalist design with thoughtfully animated transitions between pages and project showcases.",
+      client: "Academic Project",
+      date: "2023",
+      liveLink: "",
+      codeLink: "https://github.com/AndrewOchs/linux-command-line", // Update with actual repo link if public
+      challenge: "Implementing a fully functional command line interface that can handle complex operations such as piping commands together and managing background processes.",
+      solution: "Leveraged C programming and deep understanding of operating system concepts to build a robust shell that mimics the functionality of standard Unix shells while maintaining clean code architecture.",
       features: [
-        "Responsive design that works on all devices",
-        "Smooth page transitions and animations",
-        "Project filtering by category",
-        "Image gallery with lightbox functionality",
-        "Contact form with validation",
-        "Performance optimized loading"
+        "Command execution with arguments",
+        "Pipes for connecting output between commands",
+        "Input/output redirection",
+        "Background process execution",
+        "Signal handling"
       ]
     },
     {
       id: "3",
-      title: "Task Management App",
-      description: "A productivity app that helps users organize tasks, set priorities, and track progress on projects.",
-      longDescription: "This task management application was built to help users stay organized and productive. It offers intuitive task creation and management, project organization, priority setting, deadline tracking, and progress visualization.",
-      image: "/images/projects/taskapp.jpg",
-      detailImage: "/images/projects/taskapp-detail.jpg",
-      category: ["web", "frontend", "backend"],
-      technologies: ["React", "Redux", "Node.js", "MongoDB"],
+      title: "Portfolio Website",
+      description: "A personal portfolio website built with React and Vite showcasing my projects and skills.",
+      longDescription: "Designed and developed a personal portfolio website to showcase my projects, skills, and professional journey. Built with modern web technologies, this responsive site provides visitors with insights into my work and capabilities.",
+      image: "/images/projects/portfolio_website_img.png", // Add placeholder image if needed
+      detailImage: "/images/projects/portfolio_website_img.png", // Add placeholder image if needed
+      category: ["web", "frontend"],
+      technologies: ["React", "Vite", "JavaScript", "CSS"],
       featured: true,
       client: "Personal Project",
-      date: "June 2023",
-      liveLink: "https://example.com",
-      codeLink: "https://github.com",
-      challenge: "Many existing task management apps are either too complex or too simple. I wanted to create an application that strikes the perfect balance between functionality and ease of use.",
-      solution: "I developed a task management app with a clean, intuitive interface that makes task organization simple while still offering powerful features like project grouping, priority levels, and progress tracking.",
+      date: "2025",
+      liveLink: "", // Add your deployed portfolio URL
+      codeLink: "https://github.com/AndrewOchs/web-portfolio", // Update with actual repo link if public
+      challenge: "Creating a professional, responsive portfolio that effectively showcases my projects and skills while providing a smooth user experience.",
+      solution: "Leveraged React and Vite to build a modern, component-based website with smooth animations and responsive design that works across all devices.",
       features: [
-        "Intuitive drag-and-drop interface",
-        "Project and tag organization",
-        "Priority levels and deadline setting",
-        "Progress tracking with visual indicators",
-        "Dark and light theme options",
-        "Responsive design for mobile use"
+        "Responsive design for all screen sizes",
+        "Project showcase with filtering",
+        "Skills and experience highlights",
+        "Contact form",
+        "Modern animations with Framer Motion"
       ]
     },
     {

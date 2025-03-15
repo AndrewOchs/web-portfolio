@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data/projects';
@@ -24,7 +25,7 @@ const Home = () => {
             <div className="about-preview-text">
               <p>I'm a passionate developer who creates both functional websites and robust software solutions. With expertise in frontend technologies and backend systems, I build digital experiences that users love and applications that solve complex problems.</p>
               <p>My journey in development started while studying Computer Science at Temple University, where I've worked on projects ranging from web design to system-level programming including custom command line interfaces, thread synchronization, and file decompression tools.</p>
-              <a href="/about" className="btn">Learn More About Me</a>
+              <Link to="/about" className="btn">Learn More About Me</Link>
             </div>
             <div className="about-preview-skills">
               <div className="skill-category">
@@ -80,7 +81,7 @@ const Home = () => {
             ))}
           </div>
           <div className="view-all">
-            <a href="/projects" className="btn">View All Projects</a>
+            <Link to="/projects" className="btn">View All Projects</Link>
           </div>
         </div>
       </section>
@@ -90,7 +91,7 @@ const Home = () => {
           <div className="contact-preview-content">
             <h2>Let's Work Together</h2>
             <p>Have a project in mind or just want to say hello? I'd love to hear from you!</p>
-            <a href="/contact" className="btn">Get In Touch</a>
+            <Link to="/contact" className="btn">Get In Touch</Link>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
@@ -16,8 +17,8 @@ const Hero = () => {
           <h2>I create <span className="rotating-text">websites</span> that delight users</h2>
           <p>Frontend Developer | UX Enthusiast | Problem Solver</p>
           <div className="hero-buttons">
-            <a href="/projects" className="btn">View My Work</a>
-            <a href="/contact" className="btn btn-outline">Get In Touch</a>
+            <Link to="/projects" className="btn">View My Work</Link>
+            <Link to="/contact" className="btn btn-outline">Get In Touch</Link>
           </div>
         </motion.div>
         <motion.div 
