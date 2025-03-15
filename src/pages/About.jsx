@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
 
 const About = () => {
@@ -28,12 +29,12 @@ const About = () => {
             <div className="about-text">
               <h2>Hi, I'm Andrew Ochs</h2>
               <p className="lead">A passionate web developer based in Philadelphia PA.</p>
-              <p>I specialize in creating responsive websites and web applications that provide excellent user experiences. With a strong foundation in frontend development and a growing expertise in backend technologies, I enjoy building complete, end-to-end solutions.</p>
-              <p>My journey into web development began in 2023 when I was given the oppurtunity to overhaul my hometown website. Since then, I've worked on a variety of projects, continuously learning and improving my skills along the way.</p>
+              <p>I specialize in creating both responsive websites and robust software applications. With a strong foundation in Computer Science fundamentals and practical experience in both frontend and backend technologies, I enjoy building comprehensive solutions that solve real problems.</p>
+              <p>My journey into web development began in 2023 when I was given the opportunity to overhaul my hometown website. Since then, I've expanded my skills to include system-level programming, developing custom command line interfaces, implementing thread synchronization, and building file decompression tools.</p>
               <p>When I'm not coding, you can find me playing music or learning the nuances of modern AI. I believe that diverse experiences contribute to creative problem-solving in development.</p>
               <div className="about-cta">
-                <a href="/contact" className="btn">Get In Touch</a>
-                <a href="/files/resume.pdf" className="btn btn-outline" download>Download Resume</a>
+                <Link to="/contact" className="btn">Get In Touch</Link>
+                <a href="/files/Andrew_Ochs_Resume.pdf" className="btn btn-outline" download>Download Resume</a>
               </div>
             </div>
           </div>
@@ -72,47 +73,59 @@ const About = () => {
             <h3>My Skills</h3>
             <div className="skills-container">
               <div className="skill-group">
-                <h4>Frontend</h4>
+                <h4>Languages</h4>
                 <div className="skill-bars">
                   <div className="skill-bar">
-                    <div className="skill-name">HTML & CSS</div>
+                    <div className="skill-name">Python</div>
                     <div className="skill-progress">
                       <div className="skill-progress-bar" style={{ width: '90%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-name">JavaScript</div>
+                    <div className="skill-name">Java/JavaScript</div>
                     <div className="skill-progress">
                       <div className="skill-progress-bar" style={{ width: '85%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-name">React</div>
+                    <div className="skill-name">HTML & CSS</div>
                     <div className="skill-progress">
                       <div className="skill-progress-bar" style={{ width: '80%' }}></div>
+                    </div>
+                  </div>
+                  <div className="skill-bar">
+                    <div className="skill-name">C/C++</div>
+                    <div className="skill-progress">
+                      <div className="skill-progress-bar" style={{ width: '75%' }}></div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="skill-group">
-                <h4>Backend</h4>
+                <h4>Tools & Frameworks</h4>
                 <div className="skill-bars">
                   <div className="skill-bar">
-                    <div className="skill-name">Node.js</div>
+                    <div className="skill-name">React</div>
                     <div className="skill-progress">
                       <div className="skill-progress-bar" style={{ width: '75%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-name">Express</div>
+                    <div className="skill-name">Git & Github</div>
                     <div className="skill-progress">
                       <div className="skill-progress-bar" style={{ width: '70%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-name">MongoDB</div>
+                    <div className="skill-name">SQL/MySQL</div>
                     <div className="skill-progress">
                       <div className="skill-progress-bar" style={{ width: '65%' }}></div>
+                    </div>
+                  </div>
+                  <div className="skill-bar">
+                    <div className="skill-name">AWS</div>
+                    <div className="skill-progress">
+                      <div className="skill-progress-bar" style={{ width: '70%' }}></div>
                     </div>
                   </div>
                 </div>
