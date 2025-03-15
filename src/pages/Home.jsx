@@ -22,8 +22,8 @@ const Home = () => {
           <h2 className="section-title">About Me</h2>
           <div className="about-preview-content">
             <div className="about-preview-text">
-              <p>I'm a passionate developer who loves creating beautiful and functional websites. With a strong background in frontend development and a keen eye for design, I strive to build digital experiences that users love.</p>
-              <p>My journey in web development started in [year], and since then I've worked on numerous projects ranging from simple landing pages to complex web applications.</p>
+              <p>I'm a passionate developer who creates both functional websites and robust software solutions. With expertise in frontend technologies and backend systems, I build digital experiences that users love and applications that solve complex problems.</p>
+              <p>My journey in development started while studying Computer Science at Temple University, where I've worked on projects ranging from web design to system-level programming including custom command line interfaces, thread synchronization, and file decompression tools.</p>
               <a href="/about" className="btn">Learn More About Me</a>
             </div>
             <div className="about-preview-skills">
@@ -48,10 +48,22 @@ const Home = () => {
               <div className="skill-category">
                 <h3>Tools</h3>
                 <ul>
+                  <li>Linux Command Line</li>
                   <li>Git & GitHub</li>
-                  <li>Webpack</li>
-                  <li>Figma</li>
+                  <li>MySQL</li>
+                  <li>Excel</li>
                   <li>VS Code</li>
+                  <li>AWS</li>
+                </ul>
+              </div>
+              <div className="skill-category">
+                <h3>Coding Languages</h3>
+                <ul>
+                  <li>Python</li>
+                  <li>Java</li>
+                  <li>C</li>
+                  <li>C++</li>
+                  <li>SQL</li>
                 </ul>
               </div>
             </div>
