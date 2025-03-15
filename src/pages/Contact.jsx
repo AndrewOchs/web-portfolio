@@ -70,21 +70,21 @@ const Contact = () => {
                   <div className="method-icon">📧</div>
                   <div className="method-details">
                     <h3>Email</h3>
-                    <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                    <p><a href="mailto:your-email@example.com">aochs1021@gmail.com</a></p>
                   </div>
                 </div>
                 <div className="contact-method">
                   <div className="method-icon">📱</div>
                   <div className="method-details">
                     <h3>Phone</h3>
-                    <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                    <p><a href="tel:+1234567890">+1 (570) 640-2237</a></p>
                   </div>
                 </div>
                 <div className="contact-method">
                   <div className="method-icon">📍</div>
                   <div className="method-details">
                     <h3>Location</h3>
-                    <p>City, Country</p>
+                    <p>Philadelphia, PA</p>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Contact = () => {
               <div className="social-links">
                 <h3>Connect With Me</h3>
                 <div className="social-icons">
-                  <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                  <a href="https://github.com/AndrewOchs" target="_blank" rel="noreferrer">GitHub</a>
                   <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
                   <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
                 </div>

@@ -12,7 +12,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1>Hi, I'm <span className="highlight">YourName</span></h1>
+          <h1>Hi, I'm <span className="highlight">Andrew Ochs</span></h1>
           <h2>I create <span className="rotating-text">websites</span> that delight users</h2>
           <p>Frontend Developer | UX Enthusiast | Problem Solver</p>
           <div className="hero-buttons">

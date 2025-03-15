@@ -26,11 +26,11 @@ const About = () => {
               </div>
             </div>
             <div className="about-text">
-              <h2>Hi, I'm YourName</h2>
-              <p className="lead">A passionate web developer based in [Your Location].</p>
+              <h2>Hi, I'm Andrew Ochs</h2>
+              <p className="lead">A passionate web developer based in Philadelphia PA.</p>
               <p>I specialize in creating responsive websites and web applications that provide excellent user experiences. With a strong foundation in frontend development and a growing expertise in backend technologies, I enjoy building complete, end-to-end solutions.</p>
-              <p>My journey into web development began in [year] when I [brief story about how you got into development]. Since then, I've worked on a variety of projects, continuously learning and improving my skills along the way.</p>
-              <p>When I'm not coding, you can find me [your hobbies/interests]. I believe that diverse experiences contribute to creative problem-solving in development.</p>
+              <p>My journey into web development began in 2023 when I was given the oppurtunity to overhaul my hometown website. Since then, I've worked on a variety of projects, continuously learning and improving my skills along the way.</p>
+              <p>When I'm not coding, you can find me playing music or learning the nuances of modern AI. I believe that diverse experiences contribute to creative problem-solving in development.</p>
               <div className="about-cta">
                 <a href="/contact" className="btn">Get In Touch</a>
                 <a href="/files/resume.pdf" className="btn btn-outline" download>Download Resume</a>
@@ -52,17 +52,17 @@ const About = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>2021 - 2023</h4>
-                  <h5>Web Developer at Studio ABC</h5>
-                  <p>Developed and maintained client websites using HTML, CSS, JavaScript, and WordPress. Collaborated with designers to implement pixel-perfect designs.</p>
+                  <h4>2023 - Present</h4>
+                  <h5>Web Developer</h5>
+                  <p>Developed and maintained client websites using HTML, CSS, JavaScript, and React.</p>
                 </div>
               </div>
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>2017 - 2021</h4>
+                  <h4>2020 - 2025</h4>
                   <h5>Computer Science Degree</h5>
-                  <p>Studied Computer Science at University Name, focusing on web technologies and software development.</p>
+                  <p>Studied Computer Science at Temple University, focusing on web technologies and software development.</p>
                 </div>
               </div>
             </div>
