@@ -53,6 +53,12 @@
     min-width: 10px; /* Ensures the cursor is visible when text is empty */
     display: inline-block;
   }
+
+  .typewriter-container {
+    display: inline-block;
+    min-height: 1.6em;
+    vertical-align: top;
+  }
   
   .hero-content p {
     font-size: 1.2rem;
@@ -279,6 +285,17 @@
     .btn {
       width: 80%;
       max-width: 250px;
+    }
+
+    .typewriter-container {
+      min-height: 1.4em;
+      min-width: 100px;
+      position: relative;
+    }
+
+    .typewriter {
+      position: absolute;
+      white-space: nowrap;
     }
   }
   
