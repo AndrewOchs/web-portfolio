@@ -58,6 +58,16 @@
     display: inline-block;
     min-height: 1.6em;
     vertical-align: top;
+    position: relative;
+    min-width: 220px;
+    text-align: left;
+  }
+
+  .typewriter {
+    position: absolute;
+    white-space: nowrap;
+    border-right: 2px solid #0070f3;
+    padding-right: 5px;
   }
   
   .hero-content p {
@@ -289,7 +299,7 @@
 
     .typewriter-container {
       min-height: 1.4em;
-      min-width: 100px;
+      min-width: 120px;
       position: relative;
     }
 
