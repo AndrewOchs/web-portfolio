@@ -52,8 +52,6 @@
     padding-right: 5px;
     min-width: 10px; /* Ensures the cursor is visible when text is empty */
     display: inline-block;
-    width: 220px;
-    text-align: left;
   }
   
   .hero-content p {
