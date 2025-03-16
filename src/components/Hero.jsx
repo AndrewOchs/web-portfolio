@@ -7,9 +7,11 @@ const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const [wordIndex, setWordIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const words = ['websites', 'applications', 'experiences', 'digital solutions'];
   const typingSpeed = 100; // milliseconds per character
   const pauseTime = 1000; // time to pause after word is complete
+  const words = ['websites', 'applications', 'experiences', 'digital solutions'];
+  const longestWord = words.reduce((a, b) => a.length > b.length ? a : b);
+  const typewriterWidth = `${longestWord.length * 14}px`; // Estimate 14px per character
 
   useEffect(() => {
     const currentWord = words[wordIndex];
@@ -51,7 +53,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1>Hi, I'm <span className="highlight">Andrew Ochs</span></h1>
-          <h2>I create <span className="highlight-typewriter">{displayText}</span> that delight users</h2>
+          <h2>I create <span className="highlight-typewriter" style={{ width: typewriterWidth }}>{displayText}</span> that delight users</h2>
           <p>UX Enthusiast | Software Developer | Problem Solver</p>
           <div className="hero-buttons">
             <Link to="/projects" className="btn" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>View My Work</Link>
