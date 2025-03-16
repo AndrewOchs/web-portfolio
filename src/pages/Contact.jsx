@@ -93,8 +93,8 @@ const Contact = () => {
                 <h3>Connect With Me</h3>
                 <div className="social-icons">
                   <a href="https://github.com/AndrewOchs" target="_blank" rel="noreferrer">GitHub</a>
-                  <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-                  <a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a>
+                  <a href="https://linkedin.com/in/andrew-ochs-89210325a" target="_blank" rel="noreferrer">LinkedIn</a>
+                  <a href="https://x.com/dandy_mcdandles?s=21&t=IPgvTc6vMO0J_DGtZ3VLLw" target="_blank" rel="noreferrer">X</a>
                 </div>
               </div>
             </div>
