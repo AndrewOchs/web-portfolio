@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'; // Use navigate instead of Link
 import './Hero.css';
 
 const Hero = () => {
-  const navigate = useNavigate(); // Initialize navigate
-  
-  
   return (
     <section className="hero">
       <div className="container hero-container">
