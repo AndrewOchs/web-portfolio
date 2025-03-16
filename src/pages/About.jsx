@@ -45,9 +45,9 @@ const About = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>2023 - Present</h4>
-                  <h5>Frontend Developer at Company XYZ</h5>
-                  <p>Working on enterprise web applications using React and TypeScript. Implementing responsive designs and improving user experience.</p>
+                  <h4>2024 - Present</h4>
+                  <h5>Aspiring Software Developer | Career Transition</h5>
+                  <p>Actively pursuing a career in software development following graduation. Developing expertise in full-stack web technologies, with a focus on building robust and innovative web applications. Continuously expanding technical skills through personal projects, online courses, and hands-on learning in React, TypeScript, and modern web development practices. Committed to creating efficient, user-friendly software solutions and growing as a professional in the tech industry. </p>
                 </div>
               </div>
               <div className="timeline-item">
