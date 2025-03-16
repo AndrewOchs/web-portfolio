@@ -20,8 +20,8 @@ const Hero = () => {
           <h2>I create <span className="animated-text">digital solutions</span> that delight users</h2>
           <p>Frontend Developer | Software Developer | Problem Solver</p>
           <div className="hero-buttons">
-            <a href="/projects" className="btn" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>View My Work</a>
-            <a href="/contact" className="btn btn-outline" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>Get In Touch</a>
+            <Link to="/projects" className="btn" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>View My Work</Link>
+            <Link to="/contact" className="btn btn-outline" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>Get In Touch</Link>
           </div>
         </motion.div>
         <motion.div 
