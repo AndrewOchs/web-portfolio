@@ -6,14 +6,6 @@ import './Hero.css';
 const Hero = () => {
   const navigate = useNavigate(); // Initialize navigate
   
-  // Functions to handle button clicks
-  const handleWorkClick = () => {
-    navigate('/projects');
-  };
-  
-  const handleContactClick = () => {
-    navigate('/contact');
-  };
   
   return (
     <section className="hero">
@@ -25,14 +17,11 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1>Hi, I'm <span className="highlight">Andrew Ochs</span></h1>
-          <h2>I create <span className="word-rotation">
-            <span>websites</span>
-            <span>applications</span>
-            <span>experiences</span>
-            </span> that delight users</h2>
+          <h2>I create <span className="animated-text">digital solutions</span> that delight users</h2>
+          <p>Frontend Developer | Software Developer | Problem Solver</p>
           <div className="hero-buttons">
-            <button onClick={handleWorkClick} className="btn">View My Work</button>
-            <button onClick={handleContactClick} className="btn btn-outline">Get In Touch</button>
+            <a href="/projects" className="btn" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>View My Work</a>
+            <a href="/contact" className="btn btn-outline" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>Get In Touch</a>
           </div>
         </motion.div>
         <motion.div 
