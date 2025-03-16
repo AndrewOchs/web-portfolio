@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { default as React, default as React, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; // Use navigate instead of Link
 import './Hero.css';
 
