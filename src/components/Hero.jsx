@@ -52,7 +52,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1>Hi, I'm <span className="highlight">Andrew Ochs</span></h1>
-          <h2>I create <span className="highlight-typewriter">{displayText}</span> that delight users</h2>
+          <h2>I create <span className="typewriter-container"><span className="highlight-typewriter">{displayText}</span></span> that delight users</h2>
           <p>UX Enthusiast | Software Developer | Problem Solver</p>
           <div className="hero-buttons">
             <Link to="/projects" className="btn" style={{ cursor: 'pointer', pointerEvents: 'auto' }}>View My Work</Link>
