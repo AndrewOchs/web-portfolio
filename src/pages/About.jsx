@@ -45,17 +45,23 @@ const About = () => {
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
-                  <h4>2023 - Present</h4>
-                  <h5>Frontend Developer at Company XYZ</h5>
-                  <p>Working on enterprise web applications using React and TypeScript. Implementing responsive designs and improving user experience.</p>
+                  <h4>2024 - Present</h4>
+                  <h5>Aspiring Software Developer | Career Transition</h5>
+                  <p>Actively pursuing a career in software development following graduation. Developing expertise in full-stack web technologies, with a focus on building robust and innovative web applications. 
+                    <br></br><br></br>
+                    Continuously expanding technical skills through personal projects, online courses, and hands-on learning in React, TypeScript, and modern web development practices. Committed to creating efficient, user-friendly software solutions and growing as a professional in the tech industry.
+                  </p>
                 </div>
               </div>
               <div className="timeline-item">
                 <div className="timeline-dot"></div>
                 <div className="timeline-content">
                   <h4>2023 - Present</h4>
-                  <h5>Web Developer</h5>
-                  <p>Developed and maintained client websites using HTML, CSS, JavaScript, and React.</p>
+                  <h5>Web Development</h5>
+                  <p>Developed a comprehensive informational website for the Tremont Borough, PA; creating an accessible, user-friendly platform to enhance community digital resources. 
+                    <br></br><br></br>
+                    Designed and implemented a modern web solution using React, HTML, CSS, and JavaScript. Focused on improving community communication and digital accessibility.
+                  </p>
                 </div>
               </div>
               <div className="timeline-item">
@@ -63,7 +69,10 @@ const About = () => {
                 <div className="timeline-content">
                   <h4>2020 - 2025</h4>
                   <h5>Computer Science Degree</h5>
-                  <p>Studied Computer Science at Temple University, focusing on web technologies and software development.</p>
+                  <p>Pursued Computer Science at Temple University, with a deep dive into web technologies and software development fundamentals. 
+                    <br></br><br></br>
+                    As the AI landscape began to transform, I dedicated my personal time to exploring cutting-edge AI and machine learning technologies, gaining hands-on experience during the emerging era of artificial intelligence.
+                    </p>
                 </div>
               </div>
             </div>
