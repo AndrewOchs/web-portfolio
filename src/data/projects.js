@@ -70,7 +70,8 @@ export const projects = [
         "Contact form",
         "Modern animations with Framer Motion"
       ]
-    },
+    }
+  ]; /*
     {
       id: "4",
       title: "Weather Dashboard",
@@ -147,3 +148,4 @@ export const projects = [
       ]
     }
   ];
+  */

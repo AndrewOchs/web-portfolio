@@ -24,25 +24,50 @@ const Contact = () => {
     }));
   };
   
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // This is where you would normally submit the form data to a server
-    // For this example, we'll simulate a successful submission
-    
-    setFormStatus({
-      submitted: true,
-      success: true,
-      message: 'Thank you for your message! I will get back to you soon.'
-    });
-    
-    // Reset form after submission
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
+    try {
+      // Submit the form data to Formspree
+      const response = await fetch('https://formspree.io/f/xrbpbqjv', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        // If submission was successful
+        setFormStatus({
+          submitted: true,
+          success: true,
+          message: 'Thank you for your message! I will get back to you soon.'
+        });
+        
+        // Reset form after submission
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        // If there was an error with the submission
+        setFormStatus({
+          submitted: true,
+          success: false,
+          message: 'Something went wrong. Please try again later.'
+        });
+      }
+    } catch (error) {
+      setFormStatus({
+        submitted: true,
+        success: false,
+        message: 'Something went wrong. Please try again later.'
+      });
+    }
   };
   
   return (
@@ -70,14 +95,14 @@ const Contact = () => {
                   <div className="method-icon">📧</div>
                   <div className="method-details">
                     <h3>Email</h3>
-                    <p><a href="mailto:your-email@example.com">aochs1021@gmail.com</a></p>
+                    <p><a href="mailto:aochs1021@gmail.com">aochs1021@gmail.com</a></p>
                   </div>
                 </div>
                 <div className="contact-method">
                   <div className="method-icon">📱</div>
                   <div className="method-details">
                     <h3>Phone</h3>
-                    <p><a href="tel:+1234567890">+1 (570) 640-2237</a></p>
+                    <p><a href="tel:+15706402237">+1 (570) 640-2237</a></p>
                   </div>
                 </div>
                 <div className="contact-method">
@@ -102,8 +127,8 @@ const Contact = () => {
             <div className="contact-form-container">
               <h2>Send Me a Message</h2>
               
-              {formStatus.submitted && formStatus.success && (
-                <div className="form-success">
+              {formStatus.submitted && (
+                <div className={`form-${formStatus.success ? 'success' : 'error'}`}>
                   <p>{formStatus.message}</p>
                 </div>
               )}
