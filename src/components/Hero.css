@@ -145,6 +145,8 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    z-index: 10;
+    pointer-events: auto;
   }
   
   .mouse {
@@ -153,6 +155,7 @@
     border: 2px solid #333;
     border-radius: 20px;
     position: relative;
+    z-index: 10;
   }
   
   .wheel {
@@ -165,6 +168,7 @@
     left: 50%;
     transform: translateX(-50%);
     animation: scroll 1.5s infinite;
+    z-index: 10;
   }
   
   @keyframes scroll {
@@ -181,6 +185,7 @@
   .scroll-arrows {
     font-size: 1.2rem;
     animation: bounce 1.5s infinite;
+    z-index: 10;
   }
   
   @keyframes bounce {
@@ -227,5 +232,63 @@
 
     .hero:before {
       pointer-events: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hero-content h1 {
+      font-size: 2.2rem; /* Reduced from 3.5rem */
+      word-break: break-word;
+    }
+    
+    .hero-content h2 {
+      font-size: 1.6rem; /* Reduced from 2.5rem */
+      word-break: break-word;
+    }
+    
+    .hero-container {
+      padding: 0 15px;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    .hero {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 60px;
+      padding-bottom: 20px;
+    }
+
+    .hero-content {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+
+    .hero-buttons {
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      align-items: center;
+    }
+    
+    /* Adjust button size if needed */
+    .btn {
+      width: 80%;
+      max-width: 250px;
+    }
+  }
+  
+  /* For very small devices */
+  @media (max-width: 375px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    
+    .hero-content h2 {
+      font-size: 1.5rem;
     }
   }
