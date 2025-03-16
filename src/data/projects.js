@@ -5,7 +5,7 @@ export const projects = [
       description: "An informational website for Tremont Borough PA, enhancing accessibility to community resources.",
       longDescription: "Designed and developed a comprehensive website for the Tremont, PA Borough to serve as an information hub for residents and visitors. The site provides easy access to community resources, meeting information, and borough updates.",
       image: "images/projects/tremont_website_img.png", // Add placeholder image if needed
-      detailImage: "/images/projects/tremont_website_img.png", // Add placeholder image if needed
+      detailImage: "images/projects/tremont_website_img.png", // Add placeholder image if needed
       category: ["web", "frontend"],
       technologies: ["HTML", "CSS", "JavaScript", "React"],
       featured: true,
