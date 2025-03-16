@@ -47,17 +47,10 @@
     color: #0070f3;
   }
 
-  .animated-text {
-    color: #0070f3;
-    display: inline-block;
-    position: relative;
-    animation: colorPulse 3s infinite;
-  }
-  
-  @keyframes colorPulse {
-    0% { color: #0070f3; }
-    50% { color: #00c6ff; }
-    100% { color: #0070f3; }
+  .highlight-typewriter {
+    border-right: 2px solid #0070f3;
+    padding-right: 5px;
+    min-width: 10px; /* Ensures the cursor is visible when text is empty */
   }
   
   .hero-content p {
