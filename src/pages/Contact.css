@@ -110,6 +110,14 @@
     outline: none;
     border-color: #0070f3;
   }
+
+  .form-error {
+    background-color: #ffe6e6;
+    color: #d32f2f;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
   
   @media (max-width: 992px) {
     .contact-content {
