@@ -25,8 +25,11 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <h1>Hi, I'm <span className="highlight">Andrew Ochs</span></h1>
-          <h2>I create <span className="highlight">digital solutions</span> that delight users</h2>
-          <p>Frontend Developer | Software Engineer | Problem Solver</p>
+          <h2>I create <span className="word-rotation">
+            <span>websites</span>
+            <span>applications</span>
+            <span>experiences</span>
+            </span> that delight users</h2>
           <div className="hero-buttons">
             <button onClick={handleWorkClick} className="btn">View My Work</button>
             <button onClick={handleContactClick} className="btn btn-outline">Get In Touch</button>
