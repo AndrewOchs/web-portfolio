@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
@@ -20,11 +20,11 @@ const Hero = () => {
             <span>experiences</span>
           </span> that delight users</h2>
           <div className="hero-buttons">
-            <Link to="/projects" className="btn">View My Work</Link>
-            <Link to="/contact" className="btn btn-outline">Get In Touch</Link>
+            <NavLink to="/projects" className="btn">View My Work</NavLink>
+            <NavLink to="/contact" className="btn btn-outline">Get In Touch</NavLink>
           </div>
         </motion.div>
-        <motion.div 
+        <motion.div
           className="hero-image"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
