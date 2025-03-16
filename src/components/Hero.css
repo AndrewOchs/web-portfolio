@@ -145,6 +145,8 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    z-index: 10;
+    pointer-events: auto;
   }
   
   .mouse {
@@ -153,6 +155,7 @@
     border: 2px solid #333;
     border-radius: 20px;
     position: relative;
+    z-index: 10;
   }
   
   .wheel {
@@ -165,6 +168,7 @@
     left: 50%;
     transform: translateX(-50%);
     animation: scroll 1.5s infinite;
+    z-index: 10;
   }
   
   @keyframes scroll {
@@ -181,6 +185,7 @@
   .scroll-arrows {
     font-size: 1.2rem;
     animation: bounce 1.5s infinite;
+    z-index: 10;
   }
   
   @keyframes bounce {
