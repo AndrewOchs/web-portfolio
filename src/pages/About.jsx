@@ -34,7 +34,7 @@ const About = () => {
               <p>When I'm not coding, you can find me playing music or learning the nuances of modern AI. I believe that diverse experiences contribute to creative problem-solving in development.</p>
               <div className="about-cta">
                 <Link to="/contact" className="btn">Get In Touch</Link>
-                <a href="/files/Andrew_Ochs_Resume.pdf" className="btn btn-outline" download>Download Resume</a>
+                <a href="/public/files/Andrew_Ochs_Resume.pdf" className="btn btn-outline" download>Download Resume</a>
               </div>
             </div>
           </div>
@@ -87,25 +87,31 @@ const About = () => {
                   <div className="skill-bar">
                     <div className="skill-name">Python</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '90%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '89%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
                     <div className="skill-name">Java/JavaScript</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '85%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '95%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
                     <div className="skill-name">HTML & CSS</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '80%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '87%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
                     <div className="skill-name">C/C++</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '75%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '82%' }}></div>
+                    </div>
+                  </div>
+                  <div className="skill-bar">
+                    <div className="skill-name">SQL</div>
+                    <div className="skill-progress">
+                      <div className="skill-progress-bar" style={{ width: '80%' }}></div>
                     </div>
                   </div>
                 </div>
@@ -116,25 +122,31 @@ const About = () => {
                   <div className="skill-bar">
                     <div className="skill-name">React</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '75%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '81%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
                     <div className="skill-name">Git & Github</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '70%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '94%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-name">SQL/MySQL</div>
+                    <div className="skill-name">MySQL</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '65%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '78%' }}></div>
                     </div>
                   </div>
                   <div className="skill-bar">
                     <div className="skill-name">AWS</div>
                     <div className="skill-progress">
-                      <div className="skill-progress-bar" style={{ width: '70%' }}></div>
+                      <div className="skill-progress-bar" style={{ width: '74%' }}></div>
+                    </div>
+                  </div>
+                  <div className="skill-bar">
+                    <div className="skill-name">Vite</div>
+                    <div className="skill-progress">
+                      <div className="skill-progress-bar" style={{ width: '77%' }}></div>
                     </div>
                   </div>
                 </div>
