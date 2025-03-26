@@ -4,15 +4,15 @@ export const projects = [
       title: "Tremont Borough Website",
       description: "An informational website for Tremont Borough PA, enhancing accessibility to community resources.",
       longDescription: "Designed and developed a comprehensive website for the Tremont, PA Borough to serve as an information hub for residents and visitors. The site provides easy access to community resources, meeting information, and borough updates.",
-      image: "/images/projects/tremont_website_img.png", // Add placeholder image if needed
-      detailImage: "/images/projects/tremont_website_img.png", // Add placeholder image if needed
+      image: "/images/projects/tremont_website_img.png", 
+      detailImage: "/images/projects/tremont_website_img.png", 
       category: ["web", "frontend"],
       technologies: ["HTML", "CSS", "JavaScript", "React"],
       featured: true,
       client: "Tremont Borough",
       date: "2024 - Present",
       liveLink: "http://tremontborough.org/",
-      codeLink: "", // Add if you have the repo public
+      codeLink: "", 
       challenge: "The borough needed a modern, accessible online presence to better connect with residents and provide timely information about community resources and events.",
       solution: "I developed a clean, user-friendly website that makes it easy for residents to find the information they need. The site focuses on accessibility and responsive design to ensure all residents can access it from any device.",
       features: [
@@ -28,15 +28,15 @@ export const projects = [
       title: "Custom Command Line Interface",
       description: "A Unix-like shell supporting pipes, redirection, and background processes implemented in C.",
       longDescription: "Developed a custom command line interface as part of my coursework at Temple University. This Unix-like shell supports advanced features such as pipes, input/output redirection, and background process execution.",
-      image: "/images/projects/linux-peng.png", // Add placeholder image if needed
-      detailImage: "/images/projects/linux_concept_img.png", // Add placeholder image if needed
+      image: "/images/projects/linux-peng.png", 
+      detailImage: "/images/projects/linux_concept_img.png", 
       category: ["software", "system"],
       technologies: ["C", "Linux"],
       featured: true,
       client: "Academic Project",
       date: "2023",
       liveLink: "",
-      codeLink: "https://github.com/AndrewOchs/linux-command-line", // Update with actual repo link if public
+      codeLink: "https://github.com/AndrewOchs/linux-command-line", 
       challenge: "Implementing a fully functional command line interface that can handle complex operations such as piping commands together and managing background processes.",
       solution: "Leveraged C programming and deep understanding of operating system concepts to build a robust shell that mimics the functionality of standard Unix shells while maintaining clean code architecture.",
       features: [
@@ -59,7 +59,7 @@ export const projects = [
       featured: false,
       client: "Personal Project",
       date: "2025",
-      liveLink: "", // Add your deployed portfolio URL
+      liveLink: "", 
       codeLink: "https://github.com/AndrewOchs/web-portfolio", 
       challenge: "Creating a professional, responsive portfolio that effectively showcases my projects and skills while providing a smooth user experience.",
       solution: "Leveraged React and Vite to build a modern, component-based website with smooth animations and responsive design that works across all devices.",
