@@ -52,15 +52,15 @@ export const projects = [
       title: "Portfolio Website",
       description: "A personal portfolio website built with React and Vite showcasing my projects and skills.",
       longDescription: "Designed and developed a personal portfolio website to showcase my projects, skills, and professional journey. Built with modern web technologies, this responsive site provides visitors with insights into my work and capabilities.",
-      image: "/images/projects/portfolio_website_img.png", // Add placeholder image if needed
-      detailImage: "/images/projects/portfolio_website_img.png", // Add placeholder image if needed
+      image: "/images/projects/portfolio_website_img.png", 
+      detailImage: "/images/projects/portfolio_website_img.png",
       category: ["web", "frontend"],
       technologies: ["React", "Vite", "JavaScript", "CSS"],
-      featured: true,
+      featured: false,
       client: "Personal Project",
       date: "2025",
       liveLink: "", // Add your deployed portfolio URL
-      codeLink: "https://github.com/AndrewOchs/web-portfolio", // Update with actual repo link if public
+      codeLink: "https://github.com/AndrewOchs/web-portfolio", 
       challenge: "Creating a professional, responsive portfolio that effectively showcases my projects and skills while providing a smooth user experience.",
       solution: "Leveraged React and Vite to build a modern, component-based website with smooth animations and responsive design that works across all devices.",
       features: [
@@ -70,33 +70,34 @@ export const projects = [
         "Contact form",
         "Modern animations with Framer Motion"
       ]
-    }
-  ]; /*
+    },
     {
       id: "4",
-      title: "Weather Dashboard",
-      description: "A weather application that provides current conditions and forecasts with a clean, visual interface.",
-      longDescription: "This weather dashboard provides users with current weather conditions and forecasts in a visually appealing, easy-to-understand format. It includes features like location search, detailed weather data, and beautiful visualizations.",
-      image: "/images/projects/weather.jpg",
-      detailImage: "/images/projects/weather-detail.jpg",
-      category: ["web", "frontend"],
-      technologies: ["JavaScript", "HTML", "CSS", "Weather API"],
-      featured: false,
+      title: "Anomaly Detection Dashboard",
+      description: "An interactive dashboard for analyzing time series data and detecting anomalies using multiple statistical methods.",
+      longDescription: "Developed a comprehensive anomaly detection application with a web-based interactive dashboard. The application allows users to apply different statistical methods for detecting outliers in time series data, with customizable parameters and real-time visualization.",
+      image: "\images\projects\anomaly-detection.png",  
+      detailImage: "/images/projects/anomaly-detail.jpg", 
+      category: ["data-science", "web", "backend"],
+      technologies: ["Python", "Dash", "Plotly", "Pandas", "NumPy"],
+      featured: true,
       client: "Personal Project",
-      date: "August 2023",
-      liveLink: "https://example.com",
-      codeLink: "https://github.com",
-      challenge: "Weather data can be complex and overwhelming. I wanted to create an application that presents weather information in a clear, visually appealing way that anyone can understand at a glance.",
-      solution: "I built a weather dashboard that combines clean design with powerful functionality. The app fetches data from a weather API and transforms it into easy-to-understand visual elements like icons, charts, and color-coded indicators.",
+      date: "2024",
+      liveLink: "https://anomaly-detector-rt8r.onrender.com/", 
+      codeLink: "https://github.com/AndrewOchs/Anomaly-Detector",
+      challenge: "Time series data often contains anomalies that can be difficult to detect manually. I wanted to build a tool that could automatically identify outliers using various statistical approaches, while providing an intuitive interface for adjusting detection parameters.",
+      solution: "I developed a modular Python application with statistical algorithms for anomaly detection. The interactive dashboard built with Dash and Plotly allows users to select different detection methods (Z-Score, IQR, Moving Average), adjust parameters via sliders, and visualize results in real-time.",
       features: [
-        "Location search with autocomplete",
-        "Current conditions display",
-        "5-day forecast visualization",
-        "Temperature, humidity, wind, and UV index data",
-        "Sunrise and sunset times",
-        "Responsive design for all devices"
+        "Multiple statistical detection algorithms (Z-Score, IQR, Moving Average)",
+        "Interactive parameter adjustment via sliders",
+        "Real-time visualization of detected anomalies",
+        "Synthetic data generation for testing",
+        "Modular architecture with separated components",
+        "Responsive dashboard design with Bootstrap"
       ]
-    },
+    }
+  ];
+    /*
     {
       id: "5",
       title: "Recipe Finder App",
