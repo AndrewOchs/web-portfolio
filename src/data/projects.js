@@ -77,7 +77,7 @@ export const projects = [
       description: "An interactive dashboard for analyzing time series data and detecting anomalies using multiple statistical methods.",
       longDescription: "Developed a comprehensive anomaly detection application with a web-based interactive dashboard. The application allows users to apply different statistical methods for detecting outliers in time series data, with customizable parameters and real-time visualization.",
       image: "/images/projects/anomaly-detection.png",  
-      detailImage: "/images/projects/anomaly-detection.png", 
+      detailImage: "/images/projects/anomaly-abstract.png", 
       category: ["data-science", "web", "backend"],
       technologies: ["Python", "Dash", "Plotly", "Pandas", "NumPy"],
       featured: true,
