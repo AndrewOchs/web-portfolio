@@ -28,7 +28,7 @@ export const projects = [
       title: "Custom Command Line Interface",
       description: "A Unix-like shell supporting pipes, redirection, and background processes implemented in C.",
       longDescription: "Developed a custom command line interface as part of my coursework at Temple University. This Unix-like shell supports advanced features such as pipes, input/output redirection, and background process execution.",
-      image: "/images/projects/linux_concept_img.png", // Add placeholder image if needed
+      image: "/images/projects/linux-peng.png", // Add placeholder image if needed
       detailImage: "/images/projects/linux_concept_img.png", // Add placeholder image if needed
       category: ["software", "system"],
       technologies: ["C", "Linux"],
