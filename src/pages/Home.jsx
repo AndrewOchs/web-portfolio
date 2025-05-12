@@ -7,7 +7,7 @@ import { projects } from '../data/projects';
 import './Home.css';
 
 const Home = () => {
-  const featuredProjects = projects.filter(project => project.featured).slice(0, 3);
+  const featuredProjects = projects.filter(project => project.featured).slice(0, 4);
   
   return (
     <motion.div
