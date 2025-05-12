@@ -133,7 +133,7 @@ export const projects = [
     technologies: ["React", "JavaScript", "HTML", "CSS", "React Router", "Formspree"],
     featured: true,
     client: "Shane Hobbs Law Office",
-    date: "2024",
+    date: "2025",
     liveLink: "https://www.shanehobbslaw.com/", // Add if you deploy it
     codeLink: "https://github.com/AndrewOchs/hobbs-law-website",
     challenge: "The law office needed a modern, professional online presence that would establish trust with potential clients while providing easy access to information about various legal services and clear pathways for consultation requests.",
