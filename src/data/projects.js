@@ -8,7 +8,7 @@ export const projects = [
       detailImage: "/images/projects/tremont_website_img.png", 
       category: ["web", "frontend"],
       technologies: ["HTML", "CSS", "JavaScript", "React"],
-      featured: true,
+      featured: false,
       client: "Tremont Borough",
       date: "2024 - Present",
       liveLink: "http://tremontborough.org/",
@@ -95,58 +95,58 @@ export const projects = [
         "Modular architecture with separated components",
         "Responsive dashboard design with Bootstrap"
       ]
-    }
-  ];
-    /*
+    },
     {
       id: "5",
-      title: "Recipe Finder App",
-      description: "A web application that helps users discover recipes based on ingredients they have on hand.",
-      longDescription: "This recipe finder application helps users make the most of the ingredients they already have. Users can enter available ingredients, and the app will suggest recipes they can make, along with detailed instructions and nutritional information.",
-      image: "/images/projects/recipe.jpg",
-      detailImage: "/images/projects/recipe-detail.jpg",
-      category: ["web", "frontend"],
-      technologies: ["React", "CSS", "Recipe API"],
-      featured: false,
-      client: "FoodTech Startup",
-      date: "October 2023",
-      liveLink: "https://example.com",
-      codeLink: "https://github.com",
-      challenge: "The client wanted to help users reduce food waste and make cooking more accessible by creating an app that suggests recipes based on ingredients users already have in their kitchen.",
-      solution: "I developed a recipe finder app that allows users to input available ingredients and discover suitable recipes. The application integrates with a recipe API to provide users with detailed instructions, ingredient lists, and nutritional information.",
+      title: "SEPTA Commute Planner",
+      description: "An interactive web application for tracking SEPTA Regional Rail delays and real-time train locations, featuring route planning and commute time estimation.",
+      longDescription: "Developed a comprehensive web application for tracking SEPTA Regional Rail trains in real-time. The application leverages the SEPTA API to process and display real-time data on train routes, schedules, and delay statuses. Users can view current delays, track train locations on an interactive map, and plan their commutes with different transportation modes. The project includes a full-stack implementation with a React-based frontend and Node.js/Express backend.",
+      image: "/images/projects/septa-main.png", 
+      detailImage: "/images/projects/septa-detail.png",
+      category: ["web", "frontend", "backend"],
+      technologies: ["JavaScript", "Node.js", "Express", "Google Maps API", "HTML", "CSS"],
+      featured: true,
+      client: "Academic Project",
+      date: "2024",
+      liveLink: "https://septa-tracking-app.onrender.com/", // Add if you deploy it
+      codeLink: "https://github.com/cis3296s25/projects-05-septa-guys",
+      challenge: "SEPTA riders need a unified platform to track real-time train delays, view train locations, and plan their commutes effectively. The existing SEPTA tools were fragmented and lacked a comprehensive solution for both delay tracking and route planning.",
+      solution: "Built a full-stack web application that integrates multiple SEPTA APIs to provide real-time delay information, train tracking, and commute planning. The solution features an intuitive interface with Google Maps integration, allowing users to visualize train routes and plan multi-modal journeys.",
       features: [
-        "Ingredient-based recipe search",
-        "Dietary restriction filters",
-        "Detailed cooking instructions",
-        "Nutritional information display",
-        "Recipe saving functionality",
-        "Mobile-friendly design"
+        "Real-time SEPTA train delay tracking with status categorization",
+        "Interactive Google Maps integration showing train locations and routes",
+        "Multi-modal commute planning (transit, driving, walking, cycling)",
+        "RESTful API backend for fetching and processing SEPTA data",
+        "Responsive design for desktop and mobile devices",
+        "Station-by-station rail line visualization",
+        "Live delay notifications and automatic updates"
       ]
     },
     {
       id: "6",
-      title: "Fitness Tracker",
-      description: "A mobile-friendly application for tracking workouts, setting fitness goals, and monitoring progress.",
-      longDescription: "This fitness tracking application helps users stay on top of their health and fitness goals. It allows for tracking various types of workouts, setting and monitoring goals, and visualizing progress over time with detailed charts and statistics.",
-      image: "/images/projects/fitness.jpg",
-      detailImage: "/images/projects/fitness-detail.jpg",
-      category: ["web", "frontend", "backend"],
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Chart.js"],
-      featured: false,
-      client: "Health & Fitness Brand",
-      date: "December 2023",
-      liveLink: "https://example.com",
-      codeLink: "https://github.com",
-      challenge: "The client needed a comprehensive fitness tracking solution that would help their customers track workouts, set goals, and visualize progress in an engaging and motivating way.",
-      solution: "I built a fitness tracking application with user authentication, workout logging functionality, goal setting features, and detailed progress visualization using charts and statistics.",
-      features: [
-        "User account system with profiles",
-        "Workout logging with various exercise types",
-        "Goal setting and tracking",
-        "Progress visualization with charts",
-        "Workout history and statistics",
-        "Responsive design for mobile use"
+    title: "Shane Hobbs Law Office Website",
+    description: "A professional legal services website for Shane Hobbs Law Office, featuring practice areas, attorney information, and client consultation forms.",
+    longDescription: "Developed a comprehensive website for Shane Hobbs Law Office, a Pennsylvania-based legal firm. The site showcases various practice areas including municipal law, personal injury, and business law. Built with React and modern web technologies, the website provides an intuitive user experience with smooth navigation, responsive design, and a professional aesthetic that reflects the law firm's reputation. The project emphasizes conversion-focused design with clear calls-to-action and easy client communication channels.",
+    image: "/images/projects/law-office-main.png", 
+    detailImage: "/images/projects/law-office-detail.png",
+    category: ["web", "frontend"],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "React Router", "Formspree"],
+    featured: true,
+    client: "Shane Hobbs Law Office",
+    date: "2024",
+    liveLink: "https://www.shanehobbslaw.com/", // Add if you deploy it
+    codeLink: "https://github.com/AndrewOchs/hobbs-law-website",
+    challenge: "The law office needed a modern, professional online presence that would establish trust with potential clients while providing easy access to information about various legal services and clear pathways for consultation requests.",
+    solution: "Created a multi-page React application with a clean, professional design that emphasizes credibility and accessibility. Implemented smooth navigation between practice areas, integrated client testimonials, and built a conversion-optimized contact system with Formspree for handling consultation requests.",
+    features: [
+      "Multi-page navigation with practice area breakdowns",
+      "Attorney profile and credentials section",
+      "Client testimonials with carousel functionality",
+      "Interactive contact form with Formspree integration",
+      "Responsive design optimized for all devices",
+      "Individual practice area pages with detailed information",
+      "Call-to-action components for lead generation",
+      "SEO-friendly structure for better search visibility"
       ]
     }
   ];
-  */
